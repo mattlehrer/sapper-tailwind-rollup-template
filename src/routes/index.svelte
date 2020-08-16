@@ -1,49 +1,21 @@
-<!-- <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
-</style> -->
-
 <svelte:head>
 	<title>Sapper project template</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1 class="text-center text-3xl uppercase font-bold mb-2 mx-auto">
+	Great success!
+</h1>
 
-<figure>
-	<img alt="Success Kid" src="successkid.jpg" />
+<figure class="mb-4 text-center mx-auto">
+	<img
+		class="mb-4 max-w-sm w-100 mx-auto"
+		alt="Success Kid"
+		src="successkid.jpg"
+	/>
 	<figcaption>Have fun with Sapper!</figcaption>
 </figure>
 
-<p>
+<p class="mx-auto my-4 text-center">
 	<strong
 		>Try editing this file (src/routes/index.svelte) to test live
 		reloading.</strong
